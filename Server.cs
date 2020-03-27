@@ -19,9 +19,9 @@ namespace WebShareC
 
         List<string> Testing = new List<string>(); // 파일 경로 리스트
 
-        Int32 INDEX = 0; // 클라이언트로 받은 파일 리스트 인덱스 저장
+        Int32 INDEX = 0;
 
-        void TempMethod()
+        void TempMethod() // 파일경로(?)
         {
             Testing = BlackCoffeeShare.FILEPATH; // Partial 클래스
             INDEX = BlackCoffeeShare.FILENUM;
